@@ -1,6 +1,5 @@
 <?php include_once "db.php";
 
-
 // $res = $User->count(['acc'=>$_POST['acc'],'pw' => $_POST['pw']]);
 
 //1
@@ -22,6 +21,7 @@
 //5
 //記錄session
 $res=$User->count($_POST);
+
 if($res){
     $_SESSION['user']=$_POST['acc'];
 }
