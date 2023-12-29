@@ -39,9 +39,7 @@
             if (user.acc != '' && user.pw != '' && user.pw2 != '' && user.email != '') {
 
                 if (user.pw == user.pw2) {
-                    $.post("./api/chk_acc.php", {
-                        acc: user.acc
-                    }, (res) => {
+                    $.post("./api/chk_acc.php",{ acc: user.acc }, (res) => {
                         // parseInt() 轉為數字型態的整數
                         console.log(res);
                         if (parseInt(res) == 1) {
