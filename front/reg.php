@@ -1,6 +1,6 @@
-<fieldset class="cent" style="width: 50%;">
+<fieldset class="cent" style="width: 70%;">
     <legend>會員註冊</legend>
-    <span style="color:red;">*請設定您要註駃的帳號及密（最長12個字元）</span>
+    <span style="color:red;">*請設定您要註冊的帳號及密碼（最長12個字元）</span>
     <table>
         <tr>
             <td class="clo">Step1:登入帳號</td>
