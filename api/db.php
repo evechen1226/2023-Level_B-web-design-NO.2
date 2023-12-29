@@ -160,9 +160,8 @@ function to($url)
     header("location:$url");
 }
 
-$Title = new DB('titles');
 $Total = new DB('total');
-$Bottom = new DB('bottom');
+$User = new DB('user');
 $Ad = new DB('ad');
 $Mvim = new DB('mvim');
 $Image = new DB('image');
