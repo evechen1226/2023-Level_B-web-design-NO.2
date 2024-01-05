@@ -162,6 +162,7 @@ function to($url)
 
 $Total = new DB('total');
 $User = new DB('user');
+$Que= new DB('ques');
 $Ad = new DB('ad');
 $Mvim = new DB('mvim');
 $Image = new DB('image');
