@@ -45,5 +45,11 @@
         $.get("./api/get_list.php", {type}, (list) => {
             $('.list-items').html(list)
         })
+
+        function getNews(id){
+            $get('./api/get_news.php',{id},(news)=>{
+                
+            })
+        }
     }
 </script>
