@@ -47,6 +47,7 @@
 						} else {
 						?>
 							歡迎,<?= $_SESSION['user'] ?>
+							<br>
 							<button onclick="location.href='./api/logout.php'">登出</button>
 							<?php
 							if ($_SESSION['user'] == 'admin') {
