@@ -163,12 +163,9 @@ function to($url)
 $Total = new DB('total');
 $User = new DB('user');
 $Que= new DB('ques');
-$Ad = new DB('ad');
-$Mvim = new DB('mvim');
-$Image = new DB('image');
 $News = new DB('news');
-$Admin = new DB('admin');
-$Menu = new DB('menu');
+$Log = new DB('log');
+
 
 // 進站人數檢查
 if (!isset($_SESSION['visited'])) {

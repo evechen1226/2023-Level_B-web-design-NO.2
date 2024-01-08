@@ -29,7 +29,11 @@
                         <h3 style="color: blue;"><?= $row['title'] ?></h3>
                         <pre><?= $row['news'] ?></pre>
                     </div>
-                </td></td>
+                </td>
+                <td>
+                    <span id="g<?= $row['id'] ?>"><?= $row['good']; ?></span>個人說<img src="" alt="">
+
+                </td>
             </tr>
         <?php
         }

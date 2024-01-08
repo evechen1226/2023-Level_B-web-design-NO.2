@@ -28,7 +28,9 @@
                 </td>
 
                 </div>
-                <td></td>
+                <td>
+
+            </td>
             </tr>
         <?php
         }
