@@ -10,6 +10,7 @@
 	<link href="./css/css.css" rel="stylesheet" type="text/css">
 	<script src="./js/jquery-1.9.1.min.js"></script>
 	<script src="./js/js.js"></script>
+	
 	<style>
 		.pop {
 			background: rgba(51, 51, 51, 0.8);
@@ -23,6 +24,7 @@
 			padding: 10px;
 		}
 	</style>
+	
 </head>
 
 <body>
