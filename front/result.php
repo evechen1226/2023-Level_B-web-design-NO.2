@@ -1,0 +1,27 @@
+<?php
+$que = $Que->find($_GET['id'])
+?>
+
+<fieldset>
+    <legend>目前位置：首頁 > 問卷調查 > <?= $que['text'] ?></legend>
+
+    <?php
+    $opt = $Que->all(['subject_id' => $_GET['id']]);
+    foreach ($opts as $opt) {
+
+        $total = ($que['vote'] != 0) ? $que['vote'] : 1;
+        $rate = round($opt['vote'] / $total, 2);
+        echo "<div style='width:95%;display:flex;'>";
+        echo "<div style='width:50%'>{$opt['text']} </div>";
+        echo "<div style='width:".(40*$rate)."%;height:15px;background-color:#ccc;'></div>";
+        echo "<div style='width:10%'>{$opt['vote']}票(".($rate*100)."%)</div>";
+        echo "<div></div>";
+
+        echo "</div>";
+    }
+
+    ?>
+    <div class="ct">
+        <button onclick="location.href='?do=que'">返回</button>
+    </div>
+</fieldset>
