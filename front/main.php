@@ -8,6 +8,7 @@
         border-radius: 5px 5px 0 0;
         text-align: center;
         background-color: lightgray;
+        cursor:pointer;
     }
 
     .tags {
