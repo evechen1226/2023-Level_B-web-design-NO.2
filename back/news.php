@@ -9,7 +9,7 @@
             // 分頁功能
             $total = $News->count();
             $div = 3;
-            $page = ceil($total / $div);
+            $pages = ceil($total / $div);
             $now = $_GET['p'] ?? 1;
             $start = ($now - 1) * $div;
 
